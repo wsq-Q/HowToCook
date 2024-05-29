@@ -40,8 +40,8 @@ jobs:
           commit_user_email: github-actions[bot]@users.noreply.github.com
           commit_author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
       # Build docs
-      - run: echo cook.aiurs.co > CNAME
-      - run: mkdir docs && echo cook.aiurs.co > docs/CNAME
+      - run: echo cook.wangshuaiqiang.chat > CNAME
+      - run: mkdir docs && echo cook.wangshuaiqiang.chat > docs/CNAME
       - uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
